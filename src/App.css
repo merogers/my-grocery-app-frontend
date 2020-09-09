@@ -1,0 +1,157 @@
+/* CSS Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Core HTML */
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  color: #EEEEEE;
+  width: 100%;
+  min-height: 4em;
+  padding: 0 1em;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 20px;
+  text-align: center;
+}
+
+/* App */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2em 0;
+  width: 300px;
+}
+
+.container div {
+  margin: 2px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+/* Form  and List Elements */
+
+.delete-btn{ 
+  background-color: #fa8787;
+  margin-left: 0.4em;
+}
+
+.activate-btn{ 
+  background-color: #7ddb97;
+}
+
+.grocery-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.2em 0.2em 0.2em 0.5em;
+  font-size: 1em;
+  background-color: #ebf1ff
+}
+
+.active, .inactive {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.inactive {
+  color: #666666;
+  text-decoration: line-through;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-item {
+  margin-top: 3em;
+}
+
+.add-item input {
+  padding: .5em;
+  background-color:#ebf1ff;
+  border: solid 2px #282c34;
+  font-size: 1em;
+}
+
+.add-item button {
+  margin-left: 5px;
+}
+
+.success, .error {
+  display: flex;
+  width: 300px;
+  margin-top: 20px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  background-color: #fcb6b6;
+  border-color: red;
+  text-align: center;
+}
+
+.delete-btn:hover {
+  background-color: #f7b5b5
+}
+
+.activate-btn:hover {
+  background-color: #9bebb1
+}
+
+.success {
+  background-color: #b4fac7;
+  border-color: red;
+}
