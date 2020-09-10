@@ -75,6 +75,10 @@ h2 {
   text-align: center;
 }
 
+.burger {
+  margin-right: .5em;
+}
+
 /* Form  and List Elements */
 
 .delete-btn{ 
@@ -92,7 +96,7 @@ h2 {
   justify-content: space-between;
   padding: 0.2em 0.2em 0.2em 0.5em;
   font-size: 1em;
-  background-color: #ebf1ff
+  background-color: #ebf1ff;
 }
 
 .active, .inactive {
